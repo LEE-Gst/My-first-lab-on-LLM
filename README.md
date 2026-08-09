@@ -1,7 +1,9 @@
 # My-first-lab-on-LLM
   要是真想引用这坨，你得帮我改改下面的文件，不然真会的很恶心的
 
-## nsm-dfa-probe 
+  
+## nsm-dfa-probe  
+字节级、非线性递归状态机架构（暂名 NSM：Neuronal State Machine）
   内容，报告，名字都有点唬人。我干这个项目的起点是私以为
 ```
 LLM的能力是复杂系统涌现的结果
