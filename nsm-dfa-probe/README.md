@@ -1,3 +1,7 @@
+```
+首先声明，基本代码都是AI写的，不保真嗷
+```
+
 # Project Introduction — NSM / DFA Probe Experiments
 
 > 用 DFA 作探针，实证"纯概率模型不能做算法推理"，并给出可行补全路径：
