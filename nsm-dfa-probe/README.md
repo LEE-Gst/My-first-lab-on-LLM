@@ -109,6 +109,10 @@ python scripts/make_figures.py
 | GRU scale 11M/25M 中间档（138MB）| ❌ | scale 对比只需 3M + 40M 两端 |
 | Smoke / 训练中 step*.pt | ❌ | 训练过程存档，无科学价值 |
 
+```
+  还没干，大文件没传，还没有看包脸怎么个事
+```
+
 ## 完整文档阅读顺序
 
 1. `docs/blog_draft.md`（中文 12 节，最快建立全景）
