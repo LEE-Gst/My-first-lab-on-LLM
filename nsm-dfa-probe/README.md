@@ -1,5 +1,6 @@
 ```
 首先声明，基本代码都是AI写的，结论也是AI总结的，不保真嗷，自己看自己跑
+若是得闲,我应该会细化一些东西,写点/生成点Latex到arXiv上去,或许
 ```
 
 # Project Introduction — NSM / DFA Probe Experiments
