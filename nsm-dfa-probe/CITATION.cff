@@ -8,7 +8,7 @@ authors:
   - family-names: "LEE-Gst"
     given-names: ""
 license: MIT
-repository-code: "https://github.com/LEE-Gst/project-introduction"
+repository-code: "https://github.com/LEE-Gst/My-first-lab-on-LLM/edit/main/nsm-dfa-probe"
 keywords:
   - neural-state-machine
   - dfa-state-tracking
