@@ -1,0 +1,74 @@
+{
+  "fact_(1, 10)_in-dist": {
+    "gen": "fact",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "sum_(1, 10)_in-dist": {
+    "gen": "sum",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "countdown_(1, 10)_in-dist": {
+    "gen": "countdown",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "fib_(1, 6)_in-dist": {
+    "gen": "fib",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "randarith_None_in-dist": {
+    "gen": "randarith",
+    "n": 40,
+    "exact": 0.975,
+    "pc_acc": 1.0,
+    "reg_acc": 0.9852320675105485,
+    "sp_acc": 1.0
+  },
+  "fact_(11, 14)_depth-gen": {
+    "gen": "fact",
+    "n": 40,
+    "exact": 0.3,
+    "pc_acc": 0.6758434547908232,
+    "reg_acc": 0.3087719298245614,
+    "sp_acc": 0.6834008097165992
+  },
+  "sum_(11, 14)_depth-gen": {
+    "gen": "sum",
+    "n": 40,
+    "exact": 0.0,
+    "pc_acc": 0.6758434547908232,
+    "reg_acc": 0.299055330634278,
+    "sp_acc": 0.6834008097165992
+  },
+  "fib_(7, 8)_depth-gen": {
+    "gen": "fib",
+    "n": 40,
+    "exact": 0.0,
+    "pc_acc": 0.5655297949798812,
+    "reg_acc": 0.5566200421536693,
+    "sp_acc": 0.5704157884652232
+  },
+  "fact_(15, 15)_depth-gen-far": {
+    "gen": "fact",
+    "n": 40,
+    "exact": 0.0,
+    "pc_acc": 0.5585585585585585,
+    "reg_acc": 0.07207207207207207,
+    "sp_acc": 0.5675675675675675
+  }
+}

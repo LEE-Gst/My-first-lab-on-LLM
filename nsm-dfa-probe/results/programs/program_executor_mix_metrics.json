@@ -1,0 +1,50 @@
+[
+  {
+    "step": 250,
+    "gen": "mix",
+    "n": 50,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  {
+    "step": 500,
+    "gen": "mix",
+    "n": 50,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  {
+    "step": 750,
+    "gen": "mix",
+    "n": 50,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  {
+    "step": 1000,
+    "gen": "mix",
+    "n": 50,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  {
+    "step": 1250,
+    "gen": "mix",
+    "n": 50,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  {
+    "step": 1500,
+    "gen": "mix",
+    "n": 50,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "B2_k6_T1_n100": {
+    "parse_rate": 0.92,
+    "exec_acc_given_parse": 1.0,
+    "n": 100,
+    "n_parsed": 92,
+    "n_exec_ok": 92,
+    "time_s": 514.9910888671875
+  },
+  "B2_k6_T2_n100": {
+    "parse_rate": 0.65,
+    "exec_acc_given_parse": 1.0,
+    "n": 100,
+    "n_parsed": 65,
+    "n_exec_ok": 65,
+    "time_s": 508.5628800392151
+  },
+  "B2_k6_T3_n100": {
+    "parse_rate": 0.03,
+    "exec_acc_given_parse": 1.0,
+    "n": 100,
+    "n_parsed": 3,
+    "n_exec_ok": 3,
+    "time_s": 1508.7452883720398
+  },
+  "meta": {
+    "n_per_template": 100,
+    "L": 20,
+    "k": 6,
+    "note": "T3/k=6 从 n=30 扩到 n=100；前 30 样本与原 B2 一致（同 rng 序列）",
+    "total_time_s": 2532.3058037757874
+  }
+}

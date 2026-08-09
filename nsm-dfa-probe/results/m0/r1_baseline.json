@@ -1,0 +1,67 @@
+{
+  "model": "deepseek-r1:7b",
+  "seed": 42,
+  "automata": {
+    "B6": {
+      "k": 6,
+      "p_pos": 0.5,
+      "modes": {
+        "direct_L50": {
+          "n": 12,
+          "valid": 6,
+          "acc": 0.6666666666666666,
+          "alpha_struct_vs_chance": 0.16666666666666663
+        },
+        "direct_L100": {
+          "n": 12,
+          "valid": 6,
+          "acc": 0.8333333333333334,
+          "alpha_struct_vs_chance": 0.33333333333333337
+        },
+        "cot_L50": {
+          "n": 12,
+          "valid": 3,
+          "acc": 0.3333333333333333,
+          "alpha_struct_vs_chance": -0.16666666666666669
+        },
+        "cot_L100": {
+          "n": 12,
+          "valid": 2,
+          "acc": 0.5,
+          "alpha_struct_vs_chance": 0.0
+        }
+      }
+    },
+    "B10": {
+      "k": 10,
+      "p_pos": 0.5,
+      "modes": {
+        "direct_L50": {
+          "n": 10,
+          "valid": 9,
+          "acc": 0.5555555555555556,
+          "alpha_struct_vs_chance": 0.05555555555555558
+        },
+        "direct_L100": {
+          "n": 10,
+          "valid": 7,
+          "acc": 0.7142857142857143,
+          "alpha_struct_vs_chance": 0.2142857142857143
+        },
+        "cot_L50": {
+          "n": 10,
+          "valid": 7,
+          "acc": 0.8571428571428571,
+          "alpha_struct_vs_chance": 0.3571428571428571
+        },
+        "cot_L100": {
+          "n": 10,
+          "valid": 0,
+          "acc": null,
+          "alpha_struct_vs_chance": null
+        }
+      }
+    }
+  },
+  "ts": 1786124745.2098403
+}

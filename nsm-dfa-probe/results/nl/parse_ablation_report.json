@@ -1,0 +1,66 @@
+{
+  "T2_ZS-qwen": {
+    "parse_ok": 0.9333333333333333,
+    "exact": 0.5333333333333333
+  },
+  "T2_ZS-qwen+repair": {
+    "parse_ok": 0.9333333333333333,
+    "exact": 0.6666666666666666
+  },
+  "T2_FS-qwen": {
+    "parse_ok": 1.0,
+    "exact": 0.3333333333333333
+  },
+  "T2_FS-qwen+repair": {
+    "parse_ok": 1.0,
+    "exact": 0.6
+  },
+  "T2_Vote3-qwen": {
+    "parse_ok": 0.9333333333333333,
+    "exact": 0.6666666666666666
+  },
+  "T2_Vote3-qwen+repair": {
+    "parse_ok": 0.9333333333333333,
+    "exact": 0.7333333333333333
+  },
+  "T2_FS-coder": {
+    "parse_ok": 1.0,
+    "exact": 0.8666666666666667
+  },
+  "T2_FS-coder+repair": {
+    "parse_ok": 1.0,
+    "exact": 1.0
+  },
+  "T3_ZS-qwen": {
+    "parse_ok": 0.5333333333333333,
+    "exact": 0.3333333333333333
+  },
+  "T3_ZS-qwen+repair": {
+    "parse_ok": 0.5333333333333333,
+    "exact": 0.3333333333333333
+  },
+  "T3_FS-qwen": {
+    "parse_ok": 0.7333333333333333,
+    "exact": 0.0
+  },
+  "T3_FS-qwen+repair": {
+    "parse_ok": 0.7333333333333333,
+    "exact": 0.0
+  },
+  "T3_Vote3-qwen": {
+    "parse_ok": 0.8666666666666667,
+    "exact": 0.4666666666666667
+  },
+  "T3_Vote3-qwen+repair": {
+    "parse_ok": 0.7333333333333333,
+    "exact": 0.5333333333333333
+  },
+  "T3_FS-coder": {
+    "parse_ok": 1.0,
+    "exact": 0.2
+  },
+  "T3_FS-coder+repair": {
+    "parse_ok": 1.0,
+    "exact": 0.4666666666666667
+  }
+}

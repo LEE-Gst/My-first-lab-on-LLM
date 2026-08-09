@@ -1,0 +1,30 @@
+{
+  "A": {
+    "exec_acc_1000": true,
+    "replay_acc_1000": true,
+    "exec_time_s": 0.7618632316589355,
+    "replay_time_s": 0.0,
+    "trace_file_bytes": 5560,
+    "speedup": 761863.2316589355,
+    "note": "激活通路(转移索引+状态)写盘后可 100% 重放，不依赖模型"
+  },
+  "B": {
+    "L": 20000,
+    "seg_len": 1000,
+    "segments": 20,
+    "seg_acc": true,
+    "full_acc": true,
+    "seg_time_s": 10.055848598480225,
+    "full_time_s": 12.70568585395813,
+    "restores": 19,
+    "note": "每段末状态写盘、下段恢复：窗口固定(1000位)，精度无损，任意长度可处理"
+  },
+  "C": {
+    "n_queries": 100,
+    "prefix_len": 500,
+    "no_cache_time_s": 33.674694299697876,
+    "with_cache_time_s": 3.7558040618896484,
+    "speedup": 8.96604129097065,
+    "note": "重复前缀只算一次，后缀独立执行（状态已在缓存中）"
+  }
+}

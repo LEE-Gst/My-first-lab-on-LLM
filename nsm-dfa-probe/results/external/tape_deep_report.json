@@ -1,0 +1,81 @@
+{
+  "C1": {
+    "b32_seg250": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 81920,
+      "bytes_per_checkpoint": 1036.9620253164558,
+      "checkpoints": 79
+    },
+    "b32_seg1000": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 20480,
+      "bytes_per_checkpoint": 1077.8947368421052,
+      "checkpoints": 19
+    },
+    "b32_seg4000": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 5120,
+      "bytes_per_checkpoint": 1280.0,
+      "checkpoints": 4
+    },
+    "b8_seg250": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 20480,
+      "bytes_per_checkpoint": 259.24050632911394,
+      "checkpoints": 79
+    },
+    "b8_seg1000": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 5120,
+      "bytes_per_checkpoint": 269.4736842105263,
+      "checkpoints": 19
+    },
+    "b8_seg4000": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 1280,
+      "bytes_per_checkpoint": 320.0,
+      "checkpoints": 4
+    },
+    "b4_seg250": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 10240,
+      "bytes_per_checkpoint": 129.62025316455697,
+      "checkpoints": 79
+    },
+    "b4_seg1000": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 2560,
+      "bytes_per_checkpoint": 134.73684210526315,
+      "checkpoints": 19
+    },
+    "b4_seg4000": {
+      "acc": true,
+      "step_acc": 1.0,
+      "file_bytes": 640,
+      "bytes_per_checkpoint": 160.0,
+      "checkpoints": 4
+    }
+  },
+  "C2": {
+    "interrupted_at_8123_acc": true,
+    "full_acc": true,
+    "seg_len": 1000,
+    "bits": 8,
+    "note": "中断段与完整分段执行全部从盘恢复，精度与一次全跑一致"
+  },
+  "compression": {
+    "d_model": 256,
+    "f32_bytes_per_state": 1024,
+    "int8_bytes_per_state": 256,
+    "int4_bytes_per_state": 128.0,
+    "note": "每检查点: f32=1KB, int8=256B, int4=128B；1000 段长的 L=20000 全程仅 20 个检查点"
+  }
+}

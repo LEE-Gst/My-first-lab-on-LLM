@@ -1,0 +1,46 @@
+[
+  {
+    "k": 10,
+    "L": 200,
+    "p_pos": 0.5,
+    "n": 100,
+    "beta": 0.49,
+    "alpha_bias": 0.255,
+    "acc": 1.0,
+    "alpha_struct": 0.745,
+    "verdict_acc": 1.0
+  },
+  {
+    "k": 20,
+    "L": 200,
+    "p_pos": 0.5,
+    "n": 100,
+    "beta": 0.51,
+    "alpha_bias": 0.255,
+    "acc": 1.0,
+    "alpha_struct": 0.745,
+    "verdict_acc": 1.0
+  },
+  {
+    "k": 32,
+    "L": 50,
+    "p_pos": 0.5,
+    "n": 100,
+    "beta": 0.55,
+    "alpha_bias": 0.275,
+    "acc": 1.0,
+    "alpha_struct": 0.725,
+    "verdict_acc": 1.0
+  },
+  {
+    "k": 32,
+    "L": 200,
+    "p_pos": 0.5,
+    "n": 100,
+    "beta": 0.53,
+    "alpha_bias": 0.265,
+    "acc": 1.0,
+    "alpha_struct": 0.735,
+    "verdict_acc": 1.0
+  }
+]

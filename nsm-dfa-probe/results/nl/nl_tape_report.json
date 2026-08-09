@@ -1,0 +1,33 @@
+{
+  "part1": {
+    "ZS-qwen": {
+      "parse_ok": 0.6666666666666666,
+      "exact": 0.2
+    },
+    "FS-异构-qwen": {
+      "parse_ok": 0.8666666666666667,
+      "exact": 0.0
+    },
+    "FS-同构-qwen": {
+      "parse_ok": 0.7333333333333333,
+      "exact": 0.06666666666666667
+    },
+    "FS-同构-coder": {
+      "parse_ok": 1.0,
+      "exact": 0.2
+    },
+    "FS-同构-coder+repair": {
+      "parse_ok": 1.0,
+      "exact": 0.6
+    }
+  },
+  "part2": {
+    "L": 20,
+    "n": 15,
+    "parse_rate": 0.4,
+    "exec_acc_given_parse": 1.0,
+    "replay_acc": 1.0,
+    "replay_mismatch": [],
+    "note": "exec: 模型执行全轨迹；replay: 只凭 tape 文件+spec 重放"
+  }
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this work in your research, please cite it as below."
+type: software
+title: "Project Introduction — NSM / DFA Probe Experiments"
+version: 1.0.0
+date-released: 2026-08-09
+authors:
+  - family-names: "LEE-Gst"
+    given-names: ""
+license: MIT
+repository-code: "https://github.com/LEE-Gst/project-introduction"
+keywords:
+  - neural-state-machine
+  - dfa-state-tracking
+  - process-supervision
+  - explicit-memory
+  - external-tape
+  - neural-symbolic
+  - mechanistic-interpretability
+abstract: >-
+  A 232K-parameter neural executor with explicit transition memory and
+  attention-level process supervision executes arbitrary DFAs with up to 32
+  states at 100% trace accuracy, generalizing from training length 50 to
+  1000, while 7B Transformers (including reasoning models) achieve zero
+  structural accuracy on the same task. We further demonstrate a natural-
+  language middleware (LLM parses, executor computes) and an external
+  activation-tape enabling audit, replay, checkpointing, and memoization.
+  Generalizes to recursive programs and real Python source execution via
+  an ast-based compiler with idiom selection.

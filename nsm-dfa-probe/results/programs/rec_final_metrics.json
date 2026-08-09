@@ -1,0 +1,227 @@
+[
+  {
+    "step": 500,
+    "gen": "fact",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 500,
+    "gen": "sum",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 500,
+    "gen": "fib",
+    "n": 30,
+    "exact": 0.8666666666666667,
+    "pc_acc": 0.9712643678160919,
+    "reg_acc": 0.9390804597701149,
+    "sp_acc": 0.9747126436781609
+  },
+  {
+    "step": 500,
+    "gen": "countdown",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 500,
+    "gen": "randarith",
+    "n": 30,
+    "exact": 0.8,
+    "pc_acc": 1.0,
+    "reg_acc": 0.9283582089552239,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1000,
+    "gen": "fact",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1000,
+    "gen": "sum",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1000,
+    "gen": "fib",
+    "n": 30,
+    "exact": 0.8,
+    "pc_acc": 0.8294255568581477,
+    "reg_acc": 0.7751074638530676,
+    "sp_acc": 0.8241500586166471
+  },
+  {
+    "step": 1000,
+    "gen": "countdown",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1000,
+    "gen": "randarith",
+    "n": 30,
+    "exact": 0.9333333333333333,
+    "pc_acc": 1.0,
+    "reg_acc": 0.9758713136729222,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1500,
+    "gen": "fact",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1500,
+    "gen": "sum",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1500,
+    "gen": "fib",
+    "n": 30,
+    "exact": 0.7666666666666667,
+    "pc_acc": 0.783960092095165,
+    "reg_acc": 0.7223714504988488,
+    "sp_acc": 0.7783960092095165
+  },
+  {
+    "step": 1500,
+    "gen": "countdown",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 1500,
+    "gen": "randarith",
+    "n": 30,
+    "exact": 0.9666666666666667,
+    "pc_acc": 1.0,
+    "reg_acc": 0.9937694704049844,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2000,
+    "gen": "fact",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2000,
+    "gen": "sum",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2000,
+    "gen": "fib",
+    "n": 30,
+    "exact": 0.6666666666666666,
+    "pc_acc": 0.7782923299565847,
+    "reg_acc": 0.7014471780028944,
+    "sp_acc": 0.8015918958031838
+  },
+  {
+    "step": 2000,
+    "gen": "countdown",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2000,
+    "gen": "randarith",
+    "n": 30,
+    "exact": 0.9333333333333333,
+    "pc_acc": 1.0,
+    "reg_acc": 0.9938837920489296,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2500,
+    "gen": "fact",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2500,
+    "gen": "sum",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2500,
+    "gen": "fib",
+    "n": 30,
+    "exact": 0.7666666666666667,
+    "pc_acc": 0.7427608092026974,
+    "reg_acc": 0.735025783419278,
+    "sp_acc": 0.7467274890916303
+  },
+  {
+    "step": 2500,
+    "gen": "countdown",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  {
+    "step": 2500,
+    "gen": "randarith",
+    "n": 30,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  }
+]

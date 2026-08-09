@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and runtime artifacts
+*.log
+*.err
+*.out
+*.pid
+*.pid.lock
+nohup.out
+
+# OS
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Local config / secrets
+.env
+.env.local
+*.local
+
+# Temporary / build / test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+*.tmp
+*.bak
+
+# Staging-area cleanup markers
+_REPORT_JSON_SHOULD_BE_IN_RESULTS_NL.json
+_STAGE_REMOVE_*.json
+_STAGE_REMOVE_*
+
+# Big model artifacts that exceed LFS budget (handled externally)
+# Only essential checkpoints are tracked via LFS — see .gitattributes
+checkpoints/_external/
+checkpoints/_archive/
+checkpoints/_debug/
+nsm30m_poc/
+*_smoke*/
+*_smoke2/
+*_smoke3/
+*_smoke4/
+*_smoke5/
+*_smoke6/
+*_smoke7/
+gru_poc/
+trace_test/
+trace_interleaved3/
+opt2_k3_pool*/
+opt2_k5_pool*/
+opt2_fixed_curriculum/
+opt3_structured/
+opt4_hybrid/
+rec_a2/
+rec_a2b/
+rec_a2c/
+rec_full/
+rec_mech/
+rec_smoke/
+rec_v2/
+rec_v3/
+rec_v4/
+smoke/
+smoke2/
+smoke3/
+smoke4/
+smoke5/

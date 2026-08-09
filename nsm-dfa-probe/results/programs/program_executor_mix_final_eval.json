@@ -1,0 +1,65 @@
+{
+  "arith_n10": {
+    "gen": "arith",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "arith_n14": {
+    "gen": "arith",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "arith_n16": {
+    "gen": "arith",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "cf_n10": {
+    "gen": "cf",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "cf_n14": {
+    "gen": "cf",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "cf_n16": {
+    "gen": "cf",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "loop_n10": {
+    "gen": "loop",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "loop_n14": {
+    "gen": "loop",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  },
+  "loop_n16": {
+    "gen": "loop",
+    "n": 100,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0
+  }
+}

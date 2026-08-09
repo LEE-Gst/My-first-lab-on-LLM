@@ -1,0 +1,95 @@
+{
+  "models": [
+    "qwen2.5:7b"
+  ],
+  "seed": 42,
+  "automata": {
+    "B6": {
+      "k": 6,
+      "p_pos": 0.5,
+      "p_hat": 0.5016,
+      "models": {
+        "qwen2.5:7b": {
+          "cot": {
+            "50": {
+              "n": 30,
+              "valid": 30,
+              "acc": 0.4,
+              "parse_failures": 0,
+              "sample_errors": []
+            },
+            "100": {
+              "n": 30,
+              "valid": 30,
+              "acc": 0.4,
+              "parse_failures": 0,
+              "sample_errors": []
+            },
+            "200": {
+              "n": 30,
+              "valid": 7,
+              "acc": 0.2857142857142857,
+              "parse_failures": 23,
+              "sample_errors": [
+                "('ERROR', \"HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)\")",
+                "('ERROR', \"HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)\")",
+                "('ERROR', \"HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)\")"
+              ]
+            }
+          },
+          "step": {
+            "n": 100,
+            "valid": 100,
+            "acc_step": 0.9,
+            "parse_failures": 0,
+            "sample_errors": []
+          }
+        }
+      }
+    },
+    "B10": {
+      "k": 10,
+      "p_pos": 0.5,
+      "p_hat": 0.4986,
+      "models": {
+        "qwen2.5:7b": {
+          "cot": {
+            "50": {
+              "n": 30,
+              "valid": 30,
+              "acc": 0.7333333333333333,
+              "parse_failures": 0,
+              "sample_errors": []
+            },
+            "100": {
+              "n": 30,
+              "valid": 30,
+              "acc": 0.6666666666666666,
+              "parse_failures": 0,
+              "sample_errors": []
+            },
+            "200": {
+              "n": 30,
+              "valid": 12,
+              "acc": 0.6666666666666666,
+              "parse_failures": 18,
+              "sample_errors": [
+                "('ERROR', \"HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)\")",
+                "('ERROR', \"HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)\")",
+                "('ERROR', \"HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)\")"
+              ]
+            }
+          },
+          "step": {
+            "n": 100,
+            "valid": 100,
+            "acc_step": 0.71,
+            "parse_failures": 0,
+            "sample_errors": []
+          }
+        }
+      }
+    }
+  },
+  "ts": 1785952918.8043988
+}

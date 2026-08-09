@@ -1,0 +1,50 @@
+[
+  {
+    "k": 3,
+    "L": 50,
+    "acc": 0.17,
+    "alpha_struct": -0.28666666666666674,
+    "verdict_acc": 0.62,
+    "beta": 0.315
+  },
+  {
+    "k": 6,
+    "L": 50,
+    "acc": 0.015,
+    "alpha_struct": -0.2425,
+    "verdict_acc": 0.595,
+    "beta": 0.515
+  },
+  {
+    "k": 6,
+    "L": 100,
+    "acc": 0.025,
+    "alpha_struct": -0.25,
+    "verdict_acc": 0.525,
+    "beta": 0.55
+  },
+  {
+    "k": 10,
+    "L": 50,
+    "acc": 0.005,
+    "alpha_struct": -0.2525,
+    "verdict_acc": 0.6,
+    "beta": 0.515
+  },
+  {
+    "k": 10,
+    "L": 100,
+    "acc": 0.015,
+    "alpha_struct": -0.26,
+    "verdict_acc": 0.505,
+    "beta": 0.55
+  },
+  {
+    "k": 10,
+    "L": 200,
+    "acc": 0.025,
+    "alpha_struct": -0.23,
+    "verdict_acc": 0.47,
+    "beta": 0.49
+  }
+]

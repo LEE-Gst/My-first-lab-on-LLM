@@ -1,0 +1,42 @@
+{
+  "pyrand_None_compiled-python-subset": {
+    "gen": "pyrand",
+    "n": 40,
+    "exact": 0.125,
+    "pc_acc": 0.7320605661619487,
+    "reg_acc": 0.5319289005924951,
+    "sp_acc": 0.3548387096774194
+  },
+  "fact_(1, 10)_template in-dist": {
+    "gen": "fact",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "fib_(1, 6)_template in-dist": {
+    "gen": "fib",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "countdown_(1, 10)_template in-dist": {
+    "gen": "countdown",
+    "n": 40,
+    "exact": 1.0,
+    "pc_acc": 1.0,
+    "reg_acc": 1.0,
+    "sp_acc": 1.0
+  },
+  "randarith_None_template in-dist": {
+    "gen": "randarith",
+    "n": 40,
+    "exact": 0.675,
+    "pc_acc": 1.0,
+    "reg_acc": 0.912751677852349,
+    "sp_acc": 1.0
+  }
+}

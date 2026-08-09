@@ -1,0 +1,4 @@
+# Git LFS: track PyTorch model checkpoints
+# All *.pt files in checkpoints/essential/ go through LFS
+# Total budget: ~245MB (well within GitHub LFS free 1GB)
+*.pt filter=lfs diff=lfs merge=lfs -text
