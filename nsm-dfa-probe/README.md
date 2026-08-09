@@ -1,5 +1,5 @@
 ```
-首先声明，基本代码都是AI写的，不保真嗷
+首先声明，基本代码都是AI写的，结论也是AI总结的，不保真嗷，自己看自己跑
 ```
 
 # Project Introduction — NSM / DFA Probe Experiments
