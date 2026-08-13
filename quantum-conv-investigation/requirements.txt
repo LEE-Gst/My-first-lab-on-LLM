@@ -1,0 +1,7 @@
+# 实验 01-04 仅需 numpy (Python 3.8+)
+numpy>=1.24
+
+# 实验 05 需要 qiskit (Python 3.12+, 64 位)
+# 国内镜像安装: pip install qiskit qiskit-aer -i https://pypi.tuna.tsinghua.edu.cn/simple
+qiskit>=2.0
+qiskit-aer>=0.17
